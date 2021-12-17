@@ -1,0 +1,243 @@
+.section1{
+   padding:0%;
+   width: 95%;
+   height: 600px;
+   background-color: red;
+   background: url(/img/kattarasm.png) no-repeat;
+   background-size: 100% 100%;
+   display: flex;
+   align-items: flex-end;
+   .text{
+      width: 400px;
+      height: 400px;
+      background-color: white;
+      margin-right: auto;
+      &__title{
+         color: #33323D;
+         text-align: left;
+         font-style: normal;
+         
+         font-weight: bold;
+         font-size: 50px;
+         line-height: 50px;
+      }
+      &__bttn{
+         display: flex;
+         &__strel{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            width: 60px;
+            height: 60px;
+            background-color: #193041;
+            &__span1{
+               transform: rotate(225deg);
+               width: 15px;
+               height: 15px;
+               border: 1px solid transparent;
+               border-top-color: #5FB4A2 ;
+               border-left-color: #5FB4A2 ;
+               
+               
+            }
+            &__span2{
+               transform: rotate(225deg);
+               width: 15px;
+               height: 15px;
+               border: 1px solid transparent;
+               border-top-color: #5FB4A2 ;
+               border-left-color: #5FB4A2 ;
+               
+            }
+            &__span3{
+               transform: rotate(225deg);
+               width: 15px;
+               height: 15px;
+               border: 1px solid transparent;
+               border-top-color: #5FB4A2 ;
+               border-left-color: #5FB4A2 ;
+               
+            }
+         }
+         &__button{
+            width: 150px;
+            height: 60px;
+            background-color: #203A4C;
+            border: none;
+            color: white;
+         }
+      }
+      
+      
+   }
+   
+   
+}
+@media only screen and  (max-width: 774px) {
+   .section1{
+      padding:0%;
+      width: 90%;
+      height: 400px;
+      background-color: red;
+      background: url(/img/kattarasm.png) no-repeat;
+      background-size: 100% 100%;
+      display: flex;
+      align-items: flex-end;
+      .text{
+         width: 300px;
+         height: 210px;
+         background-color: white;
+         margin-right: auto;
+         &__title{
+            color: #33323D;
+            text-align: left;
+            font-style: normal;
+            
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 30px;
+         }
+         &__bttn{
+            display: flex;
+            &__strel{
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               
+               width: 40px;
+               height: 40px;
+               background-color: #193041;
+               &__span1{
+                  transform: rotate(225deg);
+                  width: 10px;
+                  height: 10px;
+                  border: 1px solid transparent;
+                  border-top-color: #5FB4A2 ;
+                  border-left-color: #5FB4A2 ;
+                  
+                  
+               }
+               &__span2{
+                  transform: rotate(225deg);
+                  width: 10px;
+                  height: 10px;
+                  border: 1px solid transparent;
+                  border-top-color: #5FB4A2 ;
+                  border-left-color: #5FB4A2 ;
+                  
+               }
+               &__span3{
+                  transform: rotate(225deg);
+                  width: 10px;
+                  height: 10px;
+                  border: 1px solid transparent;
+                  border-top-color: #5FB4A2 ;
+                  border-left-color: #5FB4A2 ;
+                  
+               }
+            }
+            &__button{
+               width: 150px;
+               height: 40px;
+               background-color: #203A4C;
+               border: none;
+               color: white;
+            }
+         }
+         
+         
+      }
+      
+      
+   }
+
+   
+}
+@media only screen and (max-width:601px) {
+   .section1{
+      position: relative;
+      padding:0%;
+      width: 80%;
+      height: 200px;
+      background-color: red;
+      background: url(/img/kattarasm.png) no-repeat;
+      background-size: 100% 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .text{
+         position: absolute;
+         top: 100%;
+         width: 300px;
+         height: 210px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         background-color: white;
+         margin-right: auto;
+         &__title{
+            color: #33323D;
+            text-align: center;
+            font-style: normal;
+            
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 30px;
+         }
+         &__bttn{
+            display: flex;
+            &__strel{
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               
+               width: 40px;
+               height: 40px;
+               background-color: #193041;
+               &__span1{
+                  transform: rotate(225deg);
+                  width: 10px;
+                  height: 10px;
+                  border: 1px solid transparent;
+                  border-top-color: #5FB4A2 ;
+                  border-left-color: #5FB4A2 ;
+                  
+                  
+               }
+               &__span2{
+                  transform: rotate(225deg);
+                  width: 10px;
+                  height: 10px;
+                  border: 1px solid transparent;
+                  border-top-color: #5FB4A2 ;
+                  border-left-color: #5FB4A2 ;
+                  
+               }
+               &__span3{
+                  transform: rotate(225deg);
+                  width: 10px;
+                  height: 10px;
+                  border: 1px solid transparent;
+                  border-top-color: #5FB4A2 ;
+                  border-left-color: #5FB4A2 ;
+                  
+               }
+            }
+            &__button{
+               width: 150px;
+               height: 40px;
+               background-color: #203A4C;
+               border: none;
+               color: white;
+            }
+         }
+         
+         
+      }
+      
+      
+   }
+   
+}
